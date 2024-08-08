@@ -11,7 +11,7 @@
         "Modeling": "<p class=\"text-lg\" id=\"Modeling_text\">Modeling xwx</p>",
         "contactInformation": "<h2 id=\"contactInformation_text\">Contact Information</h2>",
         "edu": "<h2 id=\"edu_text\">Education</h2>",
-        "messages": "<p id=\"messages_text\" class=\"text-lg\">Message Board: <a href=\"https://messages.furryaria.top" class=\"text-black hover:underline transition-colors duration-300\">Click to Enter</a></p>",
+        "messages": "<p id=\"messages_text\" class=\"text-lg\">Message Board: <a href=\"https://messages.furryaria.top\" class=\"text-black hover:underline transition-colors duration-300\">Click to Enter</a></p>",
         "aboutme": "<h2 id=\"aboutme_text\" class=\"text-3xl font-bold mb-4 text-primary\">About Me</h2>",
         "title": "Aria's Personal Website"
     },
@@ -27,7 +27,7 @@
         "Modeling": "<p class=\"text-lg\" id=\"Modeling_text\">做模型 xwx</p>",
         "contactInformation": "<h2 id=\"contactInformation_text\">联系方式</h2>",
         "edu": "<h2 id=\"edu_text\">教育</h2>",
-        "messages": "<p id=\"messages_text\" class=\"text-lg\">留言板: <a href=\"https://messages.furryaria.top" class=\"text-black hover:underline transition-colors duration-300\">点击进入</a></p>",
+        "messages": "<p id=\"messages_text\" class=\"text-lg\">留言板: <a href=\"https://messages.furryaria.top\" class=\"text-black hover:underline transition-colors duration-300\">点击进入</a></p>",
         "aboutme": "<h2 id=\"aboutme_text\" class=\"text-3xl font-bold mb-4 text-primary\">关于我</h2>",
         "title": "Aria的个人主页"
     }
