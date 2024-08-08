@@ -1,0 +1,453 @@
+.frosted-glass 
+{
+ background: rgba(255, 255, 255, 0.5); /* 半透明背景 */
+ border-radius: 10px; /* 圆角边框 */
+ padding: 20px;
+ color: #333;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+header:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Example hover effect */
+}        
+.dotted-underline {
+    position: relative;
+    display: inline-block;
+}
+.dotted-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor; /* 使用文本颜色 */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, currentColor 25%, rgba(0, 0, 0, 0) 50%, currentColor 75%, rgba(0, 0, 0, 0) 100%);
+}
+
+/*导航栏*/
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-4xl {
+    max-width: 64rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.bg-card {
+    background-color: #ffffff;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.backdrop-blur-md {
+    backdrop-filter: blur(12px);
+}
+
+.transition-transform {
+    transition: transform 0.3s ease;
+}
+
+.duration-300 {
+    transition-duration: 0.3s;
+}
+
+.hover:scale-105 {
+    transform: scale(1.05);
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-primary {
+    color: #1a202c;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.hover:underline {
+    text-decoration: underline;
+}
+
+.transition-colors {
+    transition: color 0.3s ease;
+}
+
+.space-y-2 {
+    gap: 0.5rem;
+}
+
+.md:flex-row {
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
+.md:space-x-4 {
+    @media (min-width: 768px) {
+        gap: 1rem;
+    }
+}
+
+.md:flex-col {
+    @media (min-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.md:space-y-2 {
+    @media (min-width: 768px) {
+        gap: 0.5rem;
+    }
+}
+
+.text-black {
+    color: #000000;
+}
+
+.hover:underline {
+    text-decoration: underline;
+}
+
+.transition-colors {
+    transition: color 0.3s ease;
+}
+
+.space-y-2 {
+    gap: 0.5rem;
+}
+
+.md:flex-row {
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
+.md:space-x-4 {
+    @media (min-width: 768px) {
+        gap: 1rem;
+    }
+}
+
+.md:flex-col {
+    @media (min-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.md:space-y-2 {
+    @media (min-width: 768px) {
+        gap: 0.5rem;
+    }
+}
+
+.dynamic-shadow {
+  transition: box-shadow 0.3s ease;
+}
+
+.dynamic-shadow:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* 白天模式 */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* 黑夜模式 */
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* 保持其他样式不变 */
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  color: #333;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+header:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.dotted-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.dotted-underline::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, currentColor 25%, rgba(0, 0, 0, 0) 50%, currentColor 75%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* 导航栏 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-4xl {
+  max-width: 64rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.bg-card {
+  background-color: #ffffff;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.backdrop-blur-md {
+  backdrop-filter: blur(12px);
+}
+
+.transition-transform {
+  transition: transform 0.3s ease;
+}
+
+.duration-300 {
+  transition-duration: 0.3s;
+}
+
+.hover:scale-105 {
+  transform: scale(1.05);
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-primary {
+  color: #1a202c;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.hover:underline {
+  text-decoration: underline;
+}
+
+.transition-colors {
+  transition: color 0.3s ease;
+}
+
+.space-y-2 {
+  gap: 0.5rem;
+}
+
+.md:flex-row {
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.md:space-x-4 {
+  @media (min-width: 768px) {
+    gap: 1rem;
+  }
+}
+
+.md:flex-col {
+  @media (min-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.md:space-y-2 {
+  @media (min-width: 768px) {
+    gap: 0.5rem;
+  }
+}
+
+.text-black {
+  color: #000000;
+}
+
+.hover:underline {
+  text-decoration: underline;
+}
+
+.transition-colors {
+  transition: color 0.3s ease;
+}
+
+.space-y-2 {
+  gap: 0.5rem;
+}
+
+.md:flex-row {
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.md:space-x-4 {
+  @media (min-width: 768px) {
+    gap: 1rem;
+  }
+}
+
+.md:flex-col {
+  @media (min-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.md:space-y-2 {
+  @media (min-width: 768px) {
+    gap: 0.5rem;
+  }
+}
+
+.dynamic-shadow {
+  transition: box-shadow 0.3s ease;
+}
+
+.dynamic-shadow:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.light header:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* 白天模式下的悬停背景颜色 */
+}
+
+.dark header:hover {
+  background-color: rgba(0, 0, 0, 0.9); /* 黑夜模式下的悬停背景颜色 */
+}
+
+.light header a {
+  color: #000000; /* 白天模式下的文字颜色 */
+}
+
+.dark header a {
+  color: #ffffff; /* 黑夜模式下的文字颜色 */
+}
+
+
+
+/* 深色主题下的文字颜色 */
+body.dark .text-primary {
+  color: #f7fafc;
+}
+
+/* 深色主题下的背景卡片 */
+body.dark .bg-card {
+  background-color: #000000;
+  color: #f7fafc;
+}
+
+/* 深色主题下的链接颜色 */
+body.dark .text-black {
+  color: #f7fafc;
+}

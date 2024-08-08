@@ -1,0 +1,34 @@
+{
+    "en": {
+        "about": "<strong>Hello there! (๑•̀ㅂ•́)و✧ Welcome to my personal website!</strong><br>I am Aria, a 3D modeler from the Solariix studio.<br>I will share my insights on 3D design with you (¿).<br>For me<br>Every time I immerse myself in a world full of creativity, I feel incredibly happy and satisfied (This is a lie) xwx<br>I hope my work can bring you a little surprise.<br><strong>QWQ</strong>",
+        "email": "Email: <a href=\"mailto:traxaria@qq.com\" class=\"texr-black hover:underline transition-colors duration-300\">traxaria@qq.com</a>",
+        "education": "Education: <span class=\"font-semibold\">Currently in middle school</span>",
+        "experience": "Position: <span class=\"font-semibold\">Modeling at Solariix</span>",
+        "contact": "Email: <a href=\"mailto:traxaria@qq.com\" class=\"text-black hover:underline transition-colors duration-300\">traxaria@qq.com</a>",
+        "link": "Links:",
+        "project3D": "<h2 class=\"text-3xl font-bold mb-4 text-primary dotted-underline\">3D Projects</h2><div class=\"grid grid-cols-1 md:grid-cols-2 gap-6\"><div class=\"bg-secondary p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300\"><img src=\"https://s21.ax1x.com/2024/08/03/pkjRd0J.png\" alt=\"逃离妖市\" class=\"rounded-lg mb-2 transition-transform duration-300 hover:scale-105\"><h3 class=\"text-xl font-bold\">Escape from the Demon Market (📚 Learning)</h3></div><div class=\"bg-secondary p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300\"><img src=\"https://s21.ax1x.com/2024/08/07/pkxDH8U.png\" alt=\"机器人\" class=\"rounded-lg mb-2 transition-transform duration-300 hover:scale-105\"><h3 class=\"text-xl font-bold\">Robot (🦴 Skeletal Binding)</h3></div></div>",
+        "otherproject": "<h2 class=\"text-3xl font-bold mb-4 text-primary dotted-underline\">Other Projects</h2><div class=\"grid grid-cols-1 md:grid-cols-2 gap-6\"><div class=\"bg-secondary p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300\"><img src=\"https://placehold.co/300x200\" alt=\"暂无\" class=\"rounded-lg mb-2 transition-transform duration-300 hover:scale-105\"><h3 class=\"text-xl font-bold\"><a class=\"text-black transition-colors duration-300\" target=\"_blank\">PHP Message Board</a></h3><a href=\"goto.html?link=https://github.com/FurryAria/PHP-Messages\" class=\"text-black hover:underline transition-colors duration-300\" target=\"_blank\">TO GitHub</a></h3></div><div class=\"bg-secondary p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300\"><img src=\"https://placehold.co/300x200\" alt=\"暂无\" class=\"rounded-lg mb-2 transition-transform duration-300 hover:scale-105\"><h3 class=\"text-xl font-bold\">暂无</h3></div></div>",
+        "Modeling": "<p class=\"text-lg\" id=\"Modeling_text\">Modeling xwx</p>",
+        "contactInformation": "<h2 id=\"contactInformation_text\">Contact Information</h2>",
+        "edu": "<h2 id=\"edu_text\">Education</h2>",
+        "messages": "<p id=\"messages_text\" class=\"text-lg\">Message Board: <a href=\"/messages\" class=\"text-black hover:underline transition-colors duration-300\">Click to Enter</a></p>",
+        "aboutme": "<h2 id=\"aboutme_text\" class=\"text-3xl font-bold mb-4 text-primary\">About Me</h2>",
+        "title": "Aria's Personal Website"
+    },
+    "zh": {
+        "about": "<strong>你好呀！(๑•̀ㅂ•́)و✧ 欢迎来到我的个人主页！</strong><br>我是Aria，一名来自Solariix工作室的3D建模师。<br>我将与你分享我对3D设计的见解（¿）。<br>对我来说<br>每当沉浸在充满创意的世界中，我都感到无比的快乐和满足。（Это ложь）xwx<br>希望我的作品能给你带来一丝惊喜。<br><strong>QWQ</strong>",
+        "email": "邮箱: <a href=\"mailto:traxaria@qq.com\" class=\"texr-black hover:underline transition-colors duration-300\">traxaria@qq.com</a>",
+        "education": "学历: <span class=\"font-semibold\">中学在读</span>",
+        "experience": "职位: <span class=\"font-semibold\">Solariix的建模</span>",
+        "contact": "邮箱: <a href=\"mailto:traxaria@qq.com\" class=\"text-black hover:underline transition-colors duration-300\">traxaria@qq.com</a>",
+        "link": "友链:",
+        "project3D": "<h2 class=\"text-3xl font-bold mb-4 text-primary dotted-underline\">3D项目</h2><div class=\"grid grid-cols-1 md:grid-cols-2 gap-6\"><div class=\"bg-secondary p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300\"><img src=\"https://s21.ax1x.com/2024/08/03/pkjRd0J.png\" alt=\"逃离妖市\" class=\"rounded-lg mb-2 transition-transform duration-300 hover:scale-105\"><h3 class=\"text-xl font-bold\">逃离妖市（📚正在学习）</h3></div><div class=\"bg-secondary p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300\"><img src=\"https://s21.ax1x.com/2024/08/07/pkxDH8U.png\" alt=\"机器人\" class=\"rounded-lg mb-2 transition-transform duration-300 hover:scale-105\"><h3 class=\"text-xl font-bold\">机器人（🦴骨骼绑定）</h3></div></div>",
+        "otherproject": "<h2 class=\"text-3xl font-bold mb-4 text-primary dotted-underline\">其他项目</h2><div class=\"grid grid-cols-1 md:grid-cols-2 gap-6\"><div class=\"bg-secondary p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300\"><img src=\"https://placehold.co/300x200\" alt=\"暂无\" class=\"rounded-lg mb-2 transition-transform duration-300 hover:scale-105\"><h3 class=\"text-xl font-bold\"><a class=\"text-black transition-colors duration-300\" target=\"_blank\">PHP留言板</a></h3><a href=\"goto.html?link=https://github.com/FurryAria/PHP-Messages\" class=\"text-black hover:underline transition-colors duration-300\" target=\"_blank\">TO GitHub</a></h3></div><div class=\"bg-secondary p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300\"><img src=\"https://placehold.co/300x200\" alt=\"暂无\" class=\"rounded-lg mb-2 transition-transform duration-300 hover:scale-105\"><h3 class=\"text-xl font-bold\">暂无</h3></div></div>",
+        "Modeling": "<p class=\"text-lg\" id=\"Modeling_text\">做模型 xwx</p>",
+        "contactInformation": "<h2 id=\"contactInformation_text\">联系方式</h2>",
+        "edu": "<h2 id=\"edu_text\">教育</h2>",
+        "messages": "<p id=\"messages_text\" class=\"text-lg\">留言板: <a href=\"/messages\" class=\"text-black hover:underline transition-colors duration-300\">点击进入</a></p>",
+        "aboutme": "<h2 id=\"aboutme_text\" class=\"text-3xl font-bold mb-4 text-primary\">关于我</h2>",
+        "title": "Aria的个人主页"
+    }
+}
